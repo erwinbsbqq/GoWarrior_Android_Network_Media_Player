@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_home">
+
+    <ImageView
+        android:id="@+id/detailimg"
+        android:layout_width="@dimen/detail_img_width"
+        android:layout_height="@dimen/detail_img_height"
+        android:layout_marginLeft="100dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/grid_bg"/>
+
+    <TextView
+        android:id="@+id/detailtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/detailimg"
+        android:layout_alignTop="@id/detailimg"
+        android:layout_marginLeft="100dp"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:text="@string/prog_name"/>
+
+    <TextView
+        android:id="@+id/detaildesc"
+        android:layout_width="@dimen/detail_desc_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailtitle"
+        android:layout_alignLeft="@+id/detailtitle"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:text="@string/description"/>
+
+    <ImageButton
+        android:id="@+id/detailfav"
+        android:layout_width="@dimen/detail_button_width"
+        android:layout_height="@dimen/detail_button_height"
+        android:layout_alignBottom="@+id/detailimg"
+        android:layout_alignRight="@+id/detaildesc"
+        android:clickable="true"
+        android:onClick="onClickFav"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusLeft="@+id/detailplay"
+        android:background="@drawable/buttom"
+        android:src="@drawable/detail_fav_nonselect"/>
+
+    <ImageButton
+        android:id="@+id/detailplay"
+        android:layout_width="@dimen/detail_button_width"
+        android:layout_height="@dimen/detail_button_height"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/detailfav"
+        android:layout_toStartOf="@+id/detailfav"
+        android:clickable="true"
+        android:onClick="onClickPlay"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusRight="@+id/detailfav"
+        android:background="@drawable/buttom"
+        android:src="@drawable/detail_play">
+        <requestFocus/></ImageButton>
+</RelativeLayout>

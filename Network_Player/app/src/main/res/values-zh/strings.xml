@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prog_name">我是节目名称</string>
+    <string name="latest">速递节目</string>
+    <string name="favorite">收藏节目</string>
+    <string name="watched">观看记录</string>
+
+    <string name="formatdisable">格式不支持</string>
+</resources>

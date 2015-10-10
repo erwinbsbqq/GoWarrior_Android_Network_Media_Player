@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:4
+## Created with Unified Streaming Platform(version=1.5.6)
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-MEDIA-SEQUENCE:1
+#EXT-X-ALLOW-CACHE:NO
+#EXT-X-TARGETDURATION:11
+#EXTINF:9.9683, no desc
+1.ts
+#EXTINF:9.9683, no desc
+2.ts
+#EXTINF:10.01, no desc
+3.ts
+#EXT-X-ENDLIST

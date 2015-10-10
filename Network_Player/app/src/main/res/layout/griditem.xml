@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/griditem"
+    android:contentDescription="griditem"
+    android:layout_width="@dimen/grid_item_width"
+    android:layout_height="@dimen/grid_item_height">
+
+    <ImageView
+        android:id="@+id/itemHover"
+        android:contentDescription="itemHover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/highlight"/>
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:contentDescription="itemImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="45dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/grid_bg"/>
+
+    <TextView
+        android:id="@+id/itemText"
+        android:contentDescription="itemText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="top|center_horizontal"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="30sp"
+        android:text="@string/prog_name"/>
+</RelativeLayout>

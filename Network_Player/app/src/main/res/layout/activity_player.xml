@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/playsurface"
+        android:contentDescription="playsurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/playpause"
+        android:contentDescription="playpause"
+        android:layout_width="@dimen/play_pause_width"
+        android:layout_height="@dimen/play_pause_height"
+        android:layout_centerInParent="true"
+        android:src="@drawable/player_pause"/>
+
+    <TextView
+        android:id="@+id/playbuffering"
+        android:contentDescription="playbuffering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:textColor="@color/lightgray"
+        android:text="@string/buffering"/>
+
+    <com.gowarrior.nmp.player.MediaPlayBar
+        android:id="@+id/playbar"
+        android:contentDescription="playbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/play_bar_height"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

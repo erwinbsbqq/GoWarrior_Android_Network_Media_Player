@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NMP</string>
+
+    <string name="prog_name">I am program name</string>
+    <string name="latest">Latest</string>
+    <string name="favorite">Favorite</string>
+    <string name="watched">Watched</string>
+
+    <string name="description">No program Information;</string>
+
+    <string name="buffering">Buffering¡­</string>
+    <string name="formatdisable">Format is not supported.</string>
+</resources>

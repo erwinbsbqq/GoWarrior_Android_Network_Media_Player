@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <response method="getVodDetail">
+        <attributes>
+            <ver>1</ver>
+            <id>0011</id>
+            <description>This lesson is to introduce how to implement the Favoriate and Watched menu of Network Media Player APK</description>
+            <videoUrl>http://127.0.0.1:3932/lesson/test.m3u8</videoUrl>
+            <subtitleUrl>http://xxxxxxx</subtitleUrl>
+            <relevantItem>
+                <relId>1</relId>
+                <name>Prog A</name>
+                <detailUrl>http://xxxxx</detailUrl>
+                <posterUrl>http://xxxxx</posterUrl>
+            </relevantItem> 
+             
+            <relevantItem>
+                <relId>2</relId>
+                <name>Prog B</name>
+                <detailUrl>http://xxxxx</detailUrl>
+                <posterUrl>http://xxxxx</posterUrl>
+            </relevantItem>
+            
+        </attributes>
+    </response>	    

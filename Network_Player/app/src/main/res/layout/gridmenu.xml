@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_home">
+
+    <TextView
+        android:id="@+id/gridtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="@string/favorite"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom"
+        android:textColor="#ffffff"
+        android:textSize="50sp"/>
+
+    <com.gowarrior.nmp.ProgGridView
+        android:id="@+id/gridview"
+        android:contentDescription="gridview"
+        android:layout_width="@dimen/grid_menu_width"
+        android:layout_height="@dimen/grid_menu_height"
+        android:layout_below="@id/gridtitle"
+        android:padding="15dp"
+        android:columnWidth="@dimen/grid_item_width"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:listSelector="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:numColumns="6"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:scrollbars="none"
+        android:gravity="center"/>
+
+</RelativeLayout>

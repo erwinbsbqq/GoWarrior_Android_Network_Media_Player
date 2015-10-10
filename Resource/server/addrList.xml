@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <response method="getAddrList">
+        <attributes>
+            <ver>1</ver>
+            <vodListUrl>http://127.0.0.1:3932/vodList.xml</vodListUrl>
+            <vodListMD5>2e56432c042aa5c8708560bde588ccfa</vodListMD5>
+            <queryInterval>5000</queryInterval>
+        </attributes>
+    </response>		
